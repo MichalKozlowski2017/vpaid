@@ -38,7 +38,7 @@
 </VideoClicks>
 <MediaFiles>
 <MediaFile apiFramework="VPAID" type="application/javascript">
-http://raw.githubusercontent.com/MichalKozlowski2017/vpaid/master/vpaid.js
+https://raw.githubusercontent.com/MichalKozlowski2017/vpaid/master/vpaid.js
 </MediaFile>
 </MediaFiles>
 </Linear>
