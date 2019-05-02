@@ -1,36 +1,51 @@
-<VAST version="2.0">
-    <Ad id="preroll-1">
-        <InLine>
-            <AdSystem>2.0</AdSystem>
-            <AdTitle>5773100</AdTitle>
-            <Creatives>
-                <Creative>
-                    <Linear>
-                        <Duration>00:00:01</Duration>
-                        <MediaFiles>
-                            <MediaFile height="270" width="370" type="application/x-shockwave-flash">
-                                <![CDATA[
-http://static.scanscout.com/ads/vpaidad3.swf?adData=http%3A//app.scanscout.com/ssframework/adStreamJSController.xml%3Fa%3Dgetadscheduleforcontent%26PI%3D567%26scheduleVersion%3Dnull%26HI%3D567|preroll|7496075541100999745%26AI%3D0
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+<Ad id="1234567">
+<InLine>
+<AdSystem>GDFP</AdSystem>
+<AdTitle>Linear VPAID Example</AdTitle>
+<Description>Vpaid Linear Video Ad</Description>
+<Error>http://www.example.com/error</Error>
+<Impression>http://www.example.com/impression</Impression>
+<Creatives>
+<Creative sequence="1">
+<Linear>
+<Duration>00:00:15</Duration>
+<TrackingEvents>
+<Tracking event="start">http://www.example.com/start</Tracking>
+<Tracking event="firstQuartile">http://www.example.com/firstQuartile</Tracking>
+<Tracking event="midpoint">http://www.example.com/midpoint</Tracking>
+<Tracking event="thirdQuartile">http://www.example.com/thirdQuartile</Tracking>
+<Tracking event="complete">http://www.example.com/complete</Tracking>
+<Tracking event="mute">http://www.example.com/mute</Tracking>
+<Tracking event="unmute">http://www.example.com/unmute</Tracking>
+<Tracking event="rewind">http://www.example.com/rewind</Tracking>
+<Tracking event="pause">http://www.example.com/pause</Tracking>
+<Tracking event="resume">http://www.example.com/resume</Tracking>
+<Tracking event="fullscreen">http://www.example.com/fullscreen</Tracking>
+<Tracking event="creativeView">http://www.example.com/creativeView</Tracking>
+<Tracking event="acceptInvitation">http://www.example.com/acceptInvitation</Tracking>
+</TrackingEvents>
+<AdParameters>
+<![CDATA[
+{"videos":[
+ {"url":"https://github.com/MichalKozlowski2017/vpaid/raw/master/Fashion_A_15s.mp4","mimetype":"video/mp4"}],
+ "overlay":"http://ryanthompson591.github.io/vpaidExamples/img/ClickMe.jpg"}
 ]]>
-                            </MediaFile>
-                        </MediaFiles>
-                    </Linear>
-                </Creative>
-                <Creative>
-                    <CompanionAds>
-                        <Companion height="250" width="300" id="573242">
-                            <HTMLResource>
-                                <![CDATA[
-<A onClick="var i= new Image(1,1); i.src='http://app.scanscout.com/ssframework/log/log.png?a=logitemaction&RI=573242&CbC=1&CbF=true&EC=0&RC=0&SmC=2&CbM=1.0E-5&VI=44cfc3b2382300cb751ba129fe51f46a&admode=preroll&PRI=7496075541100999745&RprC=5&ADsn=20&VcaI=192,197&RrC=1&VgI=44cfc3b2382300cb751ba129fe51f46a&AVI=142&Ust=ma&Uctry=us&CI=1247549&AC=4&PI=567&Udma=506&ADI=5773100&VclF=true';" HREF="http://vaseline.com" target="_blank">
- <IMG SRC="http://media.scanscout.com/ads/vaseline300x250Companion.jpg" BORDER=0 WIDTH=300 HEIGHT=250 ALT="Click Here">
- </A>
- <img src="http://app.scanscout.com/ssframework/log/log.png?a=logitemaction&RI=573242&CbC=1&CbF=true&EC=1&RC=0&SmC=2&CbM=1.0E-5&VI=44cfc3b2382300cb751ba129fe51f46a&admode=preroll&PRI=7496075541100999745&RprC=5&ADsn=20&VcaI=192,197&RrC=1&VgI=44cfc3b2382300cb751ba129fe51f46a&AVI=142&Ust=ma&Uctry=us&CI=1247549&AC=4&PI=567&Udma=506&ADI=5773100&VclF=true" height="1" width="1">
-]]>
-                            </HTMLResource>
-                        </Companion>
-                    </CompanionAds>
-                </Creative>
-            </Creatives>
-        </InLine>
-    </Ad>
+</AdParameters>
+<VideoClicks>
+<ClickThrough id="123">http://google.com</ClickThrough>
+<ClickTracking id="123">http://www.example.com/click</ClickTracking>
+</VideoClicks>
+<MediaFiles>
+<MediaFile apiFramework="VPAID" type="application/javascript">
+http://raw.githubusercontent.com/MichalKozlowski2017/vpaid/master/vpaid.js
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+<Creative sequence="1"></Creative>
+</Creatives>
+</InLine>
+</Ad>
 </VAST>
+
