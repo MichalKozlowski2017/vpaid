@@ -188,6 +188,9 @@ VpaidVideoPlayer.prototype.timeUpdateHandler_ = function() {
     this.attributes_['remainingTime'] =
       this.videoSlot_.duration - this.videoSlot_.currentTime;
   }
+  if(percentPlayed == 25) {
+    this.log('osiagnieto 25%');
+  }
 };
 
 
@@ -216,6 +219,7 @@ VpaidVideoPlayer.prototype.updateVideoSlot_ = function() {
     // Unable to find a source video.
     this.callEvent_('AdError');
   }
+  
 };
 
 
@@ -493,5 +497,3 @@ VpaidVideoPlayer.prototype.callEvent_ = function(eventType) {
 var getVPAIDAd = function() {
   return new VpaidVideoPlayer();
 };
-
-console.log('test');
