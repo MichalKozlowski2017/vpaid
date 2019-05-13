@@ -493,3 +493,5 @@ VpaidVideoPlayer.prototype.callEvent_ = function(eventType) {
 var getVPAIDAd = function() {
   return new VpaidVideoPlayer();
 };
+
+console.log('test');
