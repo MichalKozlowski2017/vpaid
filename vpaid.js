@@ -188,9 +188,6 @@ VpaidVideoPlayer.prototype.timeUpdateHandler_ = function() {
     this.attributes_['remainingTime'] =
       this.videoSlot_.duration - this.videoSlot_.currentTime;
   }
-  if(percentPlayed == 25) {
-    this.log('osiagnieto 25%');
-  }
 };
 
 
@@ -278,6 +275,7 @@ VpaidVideoPlayer.prototype.resizeAd = function(width, height, viewMode) {
  */
 VpaidVideoPlayer.prototype.pauseAd = function() {
   this.log('pauseAd');
+  this.log('pauseAddddd');
   this.videoSlot_.pause();
   this.callEvent_('AdPaused');
 };
