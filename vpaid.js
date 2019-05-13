@@ -216,7 +216,6 @@ VpaidVideoPlayer.prototype.updateVideoSlot_ = function() {
     // Unable to find a source video.
     this.callEvent_('AdError');
   }
-  
 };
 
 

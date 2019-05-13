@@ -36,7 +36,7 @@
 </VideoClicks>
 <MediaFiles>
 <MediaFile apiFramework="VPAID" type="application/javascript">
-https://googleads.github.io/googleads-ima-html5/vpaid/linear/VpaidVideoAd.js
+https://raw.githubusercontent.com/MichalKozlowski2017/vpaid/master/vpaid.js
 </MediaFile>
 </MediaFiles>
 </Linear>
