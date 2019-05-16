@@ -4,30 +4,13 @@
 <AdSystem>GDFP</AdSystem>
 <AdTitle>Linear VPAID Example</AdTitle>
 <Description>Vpaid Linear Video Ad</Description>
-<Error>http://www.example.com/error</Error>
-<Impression>http://www.example.com/impression</Impression>
 <Creatives>
 <Creative sequence="1">
 <Linear>
 <Duration>00:00:15</Duration>
-<TrackingEvents>
-<Tracking event="start">http://www.example.com/start</Tracking>
-<Tracking event="firstQuartile">http://www.example.com/firstQuartile</Tracking>
-<Tracking event="midpoint">http://www.example.com/midpoint</Tracking>
-<Tracking event="thirdQuartile">http://www.example.com/thirdQuartile</Tracking>
-<Tracking event="complete">http://www.example.com/complete</Tracking>
-<Tracking event="mute">http://www.example.com/mute</Tracking>
-<Tracking event="unmute">http://www.example.com/unmute</Tracking>
-<Tracking event="rewind">http://www.example.com/rewind</Tracking>
-<Tracking event="pause">http://www.example.com/pause</Tracking>
-<Tracking event="resume">http://www.example.com/resume</Tracking>
-<Tracking event="fullscreen">http://www.example.com/fullscreen</Tracking>
-<Tracking event="creativeView">http://www.example.com/creativeView</Tracking>
-<Tracking event="acceptInvitation">http://www.example.com/acceptInvitation</Tracking>
-</TrackingEvents>
 <AdParameters>
 <![CDATA[
-{"videos":[ {"url":"https://github.com/MichalKozlowski2017/vpaid/raw/master/Fashion_A_15s.mp4","mimetype":"video/mp4"}]}
+{"videos":[ {"url":"https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/362601c1c9bf65d329990e56ef9559b6/main/images/movie.mp4","mimetype":"video/mp4"}]}
 ]]>
 </AdParameters>
 <VideoClicks>
@@ -36,7 +19,7 @@
 </VideoClicks>
 <MediaFiles>
 <MediaFile apiFramework="VPAID" type="application/javascript">
-https://raw.githubusercontent.com/MichalKozlowski2017/vpaid/master/vpaid.js
+https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/362601c1c9bf65d329990e56ef9559b6/main/vpaid.js
 </MediaFile>
 </MediaFiles>
 </Linear>
