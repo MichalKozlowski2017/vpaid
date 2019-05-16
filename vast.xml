@@ -10,7 +10,7 @@
 <Duration>00:00:15</Duration>
 <AdParameters>
 <![CDATA[
-{"videos":[ {"url":"https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/362601c1c9bf65d329990e56ef9559b6/main/images/movie.mp4","mimetype":"video/mp4"}]}
+{"videos":[ {"url":"https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/cb5f44ab352ec75e80e35b4a0a6c07e0/main/images/movie.mp4","mimetype":"video/mp4"}]}
 ]]>
 </AdParameters>
 <VideoClicks>
@@ -19,7 +19,7 @@
 </VideoClicks>
 <MediaFiles>
 <MediaFile apiFramework="VPAID" type="application/javascript">
-https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/362601c1c9bf65d329990e56ef9559b6/main/vpaid.js
+https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/c1002a7136e6011300e0b8d31ed4c4cb/main/vpaid.js
 </MediaFile>
 </MediaFiles>
 </Linear>
