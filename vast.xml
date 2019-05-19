@@ -14,12 +14,11 @@
 ]]>
 </AdParameters>
 <VideoClicks>
-<ClickThrough id="123">http://google.com</ClickThrough>
-<ClickTracking id="123">http://www.example.com/click</ClickTracking>
+
 </VideoClicks>
 <MediaFiles>
 <MediaFile apiFramework="VPAID" type="application/javascript">
-https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/c1002a7136e6011300e0b8d31ed4c4cb/main/vpaid.js
+https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/72bf5ddc858af106af8f5aa012cdc768/main/vpaid.js
 </MediaFile>
 </MediaFiles>
 </Linear>
