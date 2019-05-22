@@ -11,7 +11,7 @@
 <AdParameters>
 <![CDATA[
 {"videos":[ {"url":"https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/f86de09414941d71867cdbbd6c347b5e/main/images/movie.mp4","mimetype":"video/mp4"}],
-"offers":["https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=27","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=16","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=8","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=37","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=17"]}
+#set($offerLinks = $rtb.getOffersJson())"offers":[#foreach($entry in $offerLinks)"$offerLinks[$foreach.index].url"#if( $foreach.hasNext ),#end#end]}
 ]]>
 </AdParameters>
 <VideoClicks>
