@@ -4,14 +4,13 @@
 <AdSystem>GDFP</AdSystem>
 <AdTitle>Linear VPAID Example</AdTitle>
 <Description>Vpaid Linear Video Ad</Description>
-<Error>http://www.example.com/error</Error>
-<Impression>http://www.example.com/impression</Impression>
 <Creatives>
 <Creative sequence="1">
 <Linear>
 <Duration>00:00:15</Duration>
 <AdParameters>
 <![CDATA[
+<<<<<<< HEAD
 {"videos":[ {"url":"https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/f86de09414941d71867cdbbd6c347b5e/main/images/movie.mp4","mimetype":"video/mp4"}],
 "offers":["https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=27","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=16","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=8","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=37","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=17"]}
 ]]>
@@ -21,6 +20,17 @@
 <MediaFiles>
 <MediaFile apiFramework="VPAID" type="application/javascript">
 https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/b062527eeddcc3dc96ecff7c9a01f34b/main/vpaid.js
+=======
+{"videos":[ {"url":"https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/cb5f44ab352ec75e80e35b4a0a6c07e0/main/images/movie.mp4","mimetype":"video/mp4"}]}
+]]>
+</AdParameters>
+<VideoClicks>
+
+</VideoClicks>
+<MediaFiles>
+<MediaFile apiFramework="VPAID" type="application/javascript">
+https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/72bf5ddc858af106af8f5aa012cdc768/main/vpaid.js
+>>>>>>> b390212f5ae7ee8b85cf74f94793b088667c3d9f
 </MediaFile>
 </MediaFiles>
 </Linear>
