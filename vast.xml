@@ -10,33 +10,17 @@
 <Creative sequence="1">
 <Linear>
 <Duration>00:00:15</Duration>
-<TrackingEvents>
-<Tracking event="start">http://www.example.com/start</Tracking>
-<Tracking event="firstQuartile">http://www.example.com/firstQuartile</Tracking>
-<Tracking event="midpoint">http://www.example.com/midpoint</Tracking>
-<Tracking event="thirdQuartile">http://www.example.com/thirdQuartile</Tracking>
-<Tracking event="complete">http://www.example.com/complete</Tracking>
-<Tracking event="mute">http://www.example.com/mute</Tracking>
-<Tracking event="unmute">http://www.example.com/unmute</Tracking>
-<Tracking event="rewind">http://www.example.com/rewind</Tracking>
-<Tracking event="pause">http://www.example.com/pause</Tracking>
-<Tracking event="resume">http://www.example.com/resume</Tracking>
-<Tracking event="fullscreen">http://www.example.com/fullscreen</Tracking>
-<Tracking event="creativeView">http://www.example.com/creativeView</Tracking>
-<Tracking event="acceptInvitation">http://www.example.com/acceptInvitation</Tracking>
-</TrackingEvents>
 <AdParameters>
 <![CDATA[
-{"videos":[ {"url":"https://github.com/MichalKozlowski2017/vpaid/raw/master/Fashion_A_15s.mp4","mimetype":"video/mp4"}]}
+{"videos":[ {"url":"https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/f86de09414941d71867cdbbd6c347b5e/main/images/movie.mp4","mimetype":"video/mp4"}],
+"offers":["https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=27","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=16","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=8","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=37","https://ams.creativecdn.com/clicks?preview=true&tdc=ams&url=https%3A%2F%2Fwww.rtbhouse.com%2F%3Futm_source%3Drtbhouse%26utm_medium%3Dretargeting%26utm_campaign%3Drtbhouse-retargeting&_o=17"]}
 ]]>
 </AdParameters>
 <VideoClicks>
-<ClickThrough id="123">http://google.com</ClickThrough>
-<ClickTracking id="123">http://www.example.com/click</ClickTracking>
 </VideoClicks>
 <MediaFiles>
 <MediaFile apiFramework="VPAID" type="application/javascript">
-https://raw.githubusercontent.com/MichalKozlowski2017/vpaid/master/vpaid.js
+https://statics-europe.creativecdn.com/SoDhMnjqIGz72AUY40o1/b062527eeddcc3dc96ecff7c9a01f34b/main/vpaid.js
 </MediaFile>
 </MediaFiles>
 </Linear>
